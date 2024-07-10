@@ -1,0 +1,134 @@
+body {
+  background-color: darkgoldenrod;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bar-1 {
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  height: 75px;
+}
+
+.bar1-1 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+.bar1-2 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+.bar1-3 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bar-2 {
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  height: 75px;
+  justify-content: space-evenly;
+}
+
+.bar2-1 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+.bar2-2 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+.bar2-3 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bar-3 {
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 5px;
+  height: 75px;
+}
+
+.bar3-1 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 4;
+}
+.bar3-2 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 2;
+}
+.bar3-3 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 2;
+}
+
+.bar-4 {
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 5px;
+  height: 75px;
+}
+
+.bar4-1 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 4;
+}
+.bar4-2 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+  flex-grow: 2;
+}
+.bar4-3 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
